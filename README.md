@@ -1,11 +1,9 @@
-# German Credit Risk Assessment (KNN)
+# German Credit Risk — Exploratory Analysis & KNN Classification (R)
 
-This repository contains a complete **credit risk classification** project using the **German Credit (Statlog)** dataset.  
-The objective is to predict whether a loan applicant is a **Good** or **Bad** credit risk using the **K-Nearest Neighbors (KNN)** algorithm in **R**.
+This project is an **exploratory data analysis (EDA)** and **supervised learning** study on the German Credit dataset.  
+We use the **K-Nearest Neighbors (KNN)** algorithm to classify applicants into **Good** vs **Bad** credit risk, and evaluate the model using a confusion matrix and related performance metrics.
 
-## Project overview
-Banks face two types of classification errors:
-- **False Negative (Bad → Good):** approving a risky applicant (typically the most costly error)
-- **False Positive (Good → Bad):** rejecting a reliable applicant (lost opportunity)
+## Dataset
+German Credit (Statlog) dataset (UCI Machine Learning Repository):  
+https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
 
-Because of this, the evaluation focuses not only on accuracy, but also on the **confusion matrix**, **recall/sensitivity for the Bad class**, and a **cost-sensitive interpretation**.
